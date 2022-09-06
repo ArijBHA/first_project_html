@@ -10,7 +10,8 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"/>
         <title>first_project_HTML</title>
-        
+        <link rel="stylesheet" href="style.css">
+
     </head>
 
     <body>
@@ -23,30 +24,22 @@
         <div style="text-align: center;">
         <h3 style=" color:rgb(161, 7, 110)"> WELCOME IN first_project_HTML </h3>
         </div>
-        <nav>
-        <ul>
-            <table>
-                <tr>
-            
-                  <th> <a href="#home"> <h1 style="font-style: italic;color: rgb(214, 8, 8); font-size: medium;">Home </h1> </a> </th>
-                  <th> <br> </th>
+        <ul id="nav">   
+                   <li><a href="#home" style="font-style: italic; font-size: large;"> Home</a></li>
+                   
                 
-                  <th> <a href="#about"> <h1 style="font-style: italic;color: rgb(214, 8, 8); font-size: medium;">About </h1></a> </th> 
-                  <th> <br> </th>
+                   <li><a href="#about" style="font-style: italic; font-size: large;"> About</a></li>
+                   
 
-                  <th> <a href="#work"> <h1 style="font-style: italic;color: rgb(214, 8, 8); font-size: medium;">Work </h1></a> </th>
-                  <th> <br> </th>
+                   <li><a href="#work" style="font-style: italic; font-size: large;"> Work</a></li>
+                    
 
-                  <th> <a href="#resume"> <h1 style="font-style: italic;color: rgb(214, 8, 8); font-size: medium;">Resume </h1></a> </th>
-                  <th> <br> </th>
+                   <li><a href="#resume" style="font-style: italic; font-size: large;"> Resume</a></li>
+                   
 
-                  <th> <a href="#contact"> <h1 style="font-style: italic;color: rgb(214, 8, 8); font-size: medium;">Contact </h1></a> </th>
-                  <th> <br> </th>
-                </div>
-                </tr>
-            </table>
+                   <li><a href="#contact" style="font-style: italic; font-size: large;"> Contact</a></li>
+                       
         </ul>
-        </nav>
        </header> 
   <!-- section home -->
   <br>
@@ -99,10 +92,11 @@
   <section id="work"> 
     <h1 style="color: rgb(1, 34, 180); font-size: large;"> Work </h1>
     <h1 style="color: rgb(0, 0, 0); font-size: small;"> 
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis laborum minus aliquid amet, corporis quidem cupiditate officiis quo provident ullam necessitatibus suscipit sed rem rerum obcaecati mollitia. Porro, deleniti ex?
+   <li> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis laborum minus aliquid amet, corporis quidem cupiditate officiis quo provident ullam necessitatibus suscipit sed rem rerum obcaecati mollitia. Porro, deleniti ex?
  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae magnam doloribus, vitae quidem fuga, laudantium sapiente libero maxime impedit laborum modi temporibus! Animi voluptates facere consequatur natus dolorum neque dolor!
  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit natus aliquam, nam deleniti ea deserunt? Reprehenderit, quia, error animi quo quos illo magnam dignissimos sint nam at, perferendis nostrum qui.
  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure esse voluptates odio, architecto voluptatibus possimus quae autem, earum at quo et. Quo, unde quae aliquid natus corrupti perferendis accusantium aperiam?
+</li>
 </h1>
    </section>
     <!-- section resume -->
@@ -120,39 +114,17 @@
         <label for="adress">adress :</label><br>
         <input type="text" name="" id="adress" /><br>
         <style>
-        button {
-            background-color: #4CAF50; /* Green */
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-          }
+       
         </style>
         <br><button> Joint Us</button> 
       </form>
        <!-- section contact -->
-    <section id="Contact">
+    <section id="contact">
         <br>
-        <style>
-            table {
-              
-              background-color: #d9d9d9;
-            }
-            th {
-              border: 5px solid #095484;
-            }
-            td {
-              border: 5px groove #1c87c9;
-            }
-          </style>
+  
         <h1 style="color: rgb(1, 34, 180); font-size: large;"> Contact </h1>
         <h1 style="color: rgb(0, 0, 0); font-size: small;"> To contact us </h1>
-        <table>
+        <table class="tab1">
             
           <tr>
             <th><h1 style="color: rgb(1, 109, 180); font-size: medium;"> ID </h1></th>
